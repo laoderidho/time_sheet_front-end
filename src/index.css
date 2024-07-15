@@ -1,0 +1,86 @@
+body{
+    font-family: 'Nunito', sans-serif !important;
+}
+.brand-text{
+    color: #F15858;
+    font-weight: 900;
+}
+
+.timesheet-title{
+    font-weight: 900;
+}
+
+.content{
+    background-color: #F7F8FB;
+}
+
+.active-timesheet-nav{
+    color: #2775EC !important;
+    font-weight: 800 !important;
+}
+
+.link-parent{
+    position: relative;
+}
+.active-timesheet-nav::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #2775EC;
+    bottom: 0;
+    left: 0;
+}
+
+.card-timesheet-content{
+    width: 98%;
+}
+
+.name-margin{
+    margin-right: 3rem;
+}
+
+.daftar-kegiatan{
+    font-weight: 800;
+    margin-right: 2rem;
+}
+
+.tambah-kegiatan-icon{
+    color: #2775EC;
+}
+
+.btn-tambah-kegiatan{
+    background-color: #F0F6FF !important;
+    color: #2775EC !important;
+    font-weight: 900;
+}
+
+.daftar-kegiatan-text{
+    font-weight: 800;
+    margin-left: .5rem;
+}
+
+.custom-datatable .rdt_Table {
+    font-size: 20px;
+    /* Atur ukuran font sesuai kebutuhan Anda */
+}
+
+.custom-datatable .rdt_TableHead {
+    font-size: 16px;
+    /* Atur ukuran font untuk header tabel */
+    font-weight: bold;
+    /* Membuat teks header menjadi bold */
+}
+
+.total-durasi{
+    color: #2775EC;
+}
+
+.content-setting{
+    background-color: #F7F8FB;
+    height: 70vh;
+}
+
+.card-setting{
+    width: 40%;
+}
